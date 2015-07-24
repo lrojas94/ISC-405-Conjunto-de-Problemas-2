@@ -173,6 +173,5 @@ int main(){
 	int sol = knapsack(0, 0);
 	
 	cout << sol << endl;
-	while(true);
 	return 0;
 }
