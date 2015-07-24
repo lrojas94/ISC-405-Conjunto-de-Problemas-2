@@ -51,7 +51,6 @@ int calcular_suma(unsigned cantidad_intervalos_maximo){
 		suma +=	SUM[intervalos_completos[i].second] -
 				SUM[intervalos_completos[i].first] +
 				N[intervalos_completos[i].first];
-		cout << "suma = " << suma << endl;
 	}
 	
 	return suma;
